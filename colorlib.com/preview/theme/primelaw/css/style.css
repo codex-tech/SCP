@@ -13021,3 +13021,45 @@ textarea.form-control {
         stroke-dashoffset: -136px
     }
 }
+
+.color{
+    color: #b99566;
+}
+
+/* style for parctice areas*/
+.image-block > h4 {
+    margin: 19px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+  }
+  .image-block {
+      border: 3px solid white ;
+      padding: 0px;    
+      margin: 0px;
+      height:250px;
+      vertical-align: bottom;
+  }
+
+  .image-block:hover  {
+    background-color: red;    
+    color: purple;  
+    box-shadow: inset;  
+}
+  .image-block > p {
+      width: 100%;
+      height: 100%;
+      font-weight: normal;
+      font-size: 16px;
+      padding: 22px;
+      color: white;
+      float: left;
+      height: 100px;
+  }
+.image-block:hover > p {
+    background-color: rgba(3,3,3,0.5);    
+    color: white;    
+}
+
