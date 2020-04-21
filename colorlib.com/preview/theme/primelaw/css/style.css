@@ -11226,7 +11226,7 @@ h5,
 
 .owl-carousel.home-slider {
     position: relative;
-    height: 750px;
+    height: 500px;
     z-index: 0;
     background: #000
 }
@@ -11324,7 +11324,7 @@ h5,
 }
 
 .owl-carousel.home-slider .slider-item .slider-text h1 {
-    font-size: 100px;
+    font-size: 65px;
     color: #fff;
     line-height: 1.5;
     font-weight: 400;
@@ -13007,8 +13007,8 @@ textarea.form-control {
 .image-block > h4 {
     margin: 19px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
     font-weight: bold;
     float: left;
   }
@@ -13018,20 +13018,21 @@ textarea.form-control {
       margin: 0px;
       height:250px;
       vertical-align: bottom;
+      
   }
 
-  .image-block:hover  {
+  /* .image-block:hover  {
     background-color: red;    
     color: purple;  
     box-shadow: inset;  
-}
+} */
   .image-block > p {
       width: 100%;
       height: 100%;
       font-weight: normal;
       font-size: 16px;
       padding: 22px;
-      color: white;
+      color: white  !important;
       float: left;
       height: 100px;
   }
@@ -13043,4 +13044,117 @@ textarea.form-control {
 .text{
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+.mycontain{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #000;
+    box-shadow:  0 30px 30px rgba(0,0,0,0.5);
+    margin-bottom: 15px;
+}
+.box .imgBx{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.box .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;  
+   transition: 0.5s;
+}
+
+.box:hover .imgBx img{
+    opacity: 0;
+
+}
+.box .content{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 60px;
+    background: #FFF;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 8px;
+box-sizing: border-box;
+
+}
+.box:hover .content{
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  background-color:rgba(0,0,0,0.4);
+    color:white;
+}
+.box .content h3{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    text-transform: uppercase;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+.box .content p{
+    margin:10px 0 0;
+    padding: 0;
+    opacity: 0;
+    transition: 0.5s;
+    text-align: justify;
+    line-height: 1.2em;
+    color:#fff;
+
+}
+.box:hover .content p{
+    opacity: 1;
+    transition-delay: 0.5s;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
