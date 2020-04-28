@@ -13211,7 +13211,7 @@ box-sizing: border-box;
   .portfolio .portfolio-wrap .portfolio-info p {
     color: #fff;
     font-size: 12px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 300;
   }
   
